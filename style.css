@@ -57,3 +57,26 @@ button{
     border: 1px black solid;
     padding:10px;
 }
+
+@media(max-width:1030px){
+    #posts{
+        width:80vw;
+    }
+    #buttons{
+        flex-direction: column;
+        /* justify-content: space-around; */
+    }
+    .txtBox, #text{
+        width:80vw;
+    }
+    body{
+        align-items: center;
+    }
+    #maker{
+        display: flex;
+        align-items: center;
+    }
+    #submitBtn{
+        margin-bottom: 20px;
+    }
+}
