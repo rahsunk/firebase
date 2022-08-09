@@ -32,6 +32,10 @@ button{
     font-size:15px;
 }
 
+button:hover{
+    opacity:0.5;
+}
+
 #buttons{
     display: flex;
     justify-content: space-around;
