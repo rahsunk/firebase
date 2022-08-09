@@ -25,8 +25,3 @@ submitBtn.onclick=function(event){
     }
     
 }
-
-let homeBtn=document.getElementById('backHome')
-homeBtn.onclick=function(event){
-    event.preventDefault()
-}
