@@ -64,7 +64,6 @@ button{
     }
     #buttons{
         flex-direction: column;
-        /* justify-content: space-around; */
     }
     .txtBox, #text{
         width:80vw;
