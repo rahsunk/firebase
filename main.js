@@ -21,6 +21,7 @@ submitBtn.onclick=function(event){
 
         let newItemRef=push(itemsRef)
         set(newItemRef,userInput)
+        alert('Submitted!')
     }
     
 }
