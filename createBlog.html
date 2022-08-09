@@ -6,10 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Post</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script>
+    <script type="module" src="firebase.js" defer></script>
+    <script type="module" src="main.js" defer></script>
 </head>
 <body>
     <h1>Create Post:</h1>
-    <div id="maker"></div>
+    <form id="maker">
+        <label for="name">Your Name: </label>
+        <input class="txtBox" id="name" name="name" type="text"/>
+        
+        <label for="title">Title: </label>
+        <input class="txtBox" id="title" name="title" type="text"/>
+        
+        <label for="text">Type Here: </label>
+        <input class="txtBox" id="text" name="text" type="text"/>
+        
+        <div id="buttons">
+            <button id="submitBtn">Submit</button>
+            <button id="backHome" href="">Back to Home Page</button>
+        </div>
+    </form>
 </body>
 </html>
